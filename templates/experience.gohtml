@@ -1,0 +1,28 @@
+{{define "experience-section"}}
+    <section class="experience" aria-labelledby="experienceHeader">
+        <h3 id="experienceHeader">Experience</h3>
+        {{range .Experience}}
+            <div class="job content">
+                <div class="heading">
+                    <div id="role">
+                        <p><strong>{{.Role}}</strong></p>
+                    </div>
+                    <div id="start-end">{{.Start}}
+                        {{if .End}}
+                            - {{.End}}
+                        {{else}}
+                            - <span>Present</span>
+                        {{end}}
+                    </div>
+                </div>
+
+                <p id="location">{{.Company}} <span>({{.Location}})</span></p>
+                <ul id="details">
+                    {{range .Details}}
+                        <li>{{.}}</li>
+                    {{end}}
+                </ul>
+            </div>
+        {{end}}
+    </section>
+{{end}}

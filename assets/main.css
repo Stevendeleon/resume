@@ -1,0 +1,147 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    padding: .5rem 0;
+    max-width: 70rem;
+    margin: 0 auto;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+
+        text-align: left;
+
+        h1 {
+            font-size: 42px;
+        }
+
+        #my-position {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        #contact {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            padding: .25rem 0;
+
+            & > svg {
+                width: 22px;
+                height: 22px;
+
+                margin-right: .25rem;
+            }
+
+            svg:first-of-type {
+                margin-left: -3px;
+            }
+
+            & > span:first-of-type {
+                margin-right: .5rem;
+            }
+        }
+
+        #mission, #contact {
+            font-size: 16px;
+        }
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #d7d7d7;
+        margin-bottom: 1.5rem;
+    }
+
+
+    section {
+        margin: 0.75rem 0;
+
+        h3 {
+            font-size: 26px;
+            margin-bottom: .25rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+
+            li::marker {
+                color: #838383;
+            }
+        }
+
+        .content {
+            padding: .5rem 0;
+        }
+    }
+
+    .experience {
+        .job {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            #role {
+                & > p {
+                    font-weight: 400;
+                }
+            }
+
+            .heading {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            #start-end {
+                font-size: 0.85em;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            #location {
+                font-size: 0.95em;
+
+                span {
+                    /*font-style: italic;*/
+                }
+            }
+
+            #details {
+                max-width: 80%;
+            }
+        }
+
+
+    }
+
+    .projects {
+        li {
+            max-width: 75%;
+        }
+    }
+
+    .skills {}
+
+    .keywords {
+        .list {
+            max-width: 80%;
+        }
+    }
+
+}

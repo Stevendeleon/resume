@@ -1,0 +1,137 @@
+Name:      Steven DeLeon
+MyRole:    Senior Frontend Developer • Designer • Mentor
+Email:     stevendeleon2892@gmail.com
+Location:  New York, NY
+PageTitle: Steven_DeLeon_Resume
+
+Mission:
+  Enhancing user interactions and experiences while continually learning and adapting to new technologies
+
+Experience:
+
+  - Role:     Senior Frontend Engineer • Full-stack Engineer • Frontend Champion
+    Company:  BJSS
+    Start:    Jul 2022
+    Location: New York, NY
+    Details:
+      - Led and executed the transition from a Vue 2 to Vue 3 codebase.
+      - Conceptualized and built a robust reporting page representing client data and their engagements separated 
+        by tabs.
+      - Refactored front-end codebases to enhance feature-driven development and maintainability.
+      - Built and tested APIs for consumption using Go, C# and TypeScript.
+      - Managed database tables, ensuring data integrity and efficient access.
+      - Created and integrated a private web component library for reusability and consistency 
+        across projects complimented with Storybook.
+      - Prototyped user journeys and designed proof-of-concepts in Figma to validate user needs.
+      - Developed an application for managing a clients internal tools.
+      - Built several automation tools and enhanced existing ones prone to user errors by reducing complexity.
+      - Built a dynamic SVG builder to visually display the effects of different pressures and loads on roof 
+        and wall panels with a mix of C#, React, hooks and caching.
+      - Mentored junior designers and front-end developers through a bench initiative, fostering team growth.
+      - Volunteered with City Tutors, teaching programming fundamentals and Web Development to 
+        students (outside work hours).
+
+  - Role:     Frontend Developer • Full stack
+    Company:  Blue Cross Blue Shield
+    Start:    Dec 2021
+    End:      Jul 2022
+    Location: Durham, NC - Remote
+    Details:
+      - Developed a secure 3-step credit card flow integrating with a third-party payment provider, streamlining 
+        the checkout process.
+      - Enabled secure mobile login using biometrics (facial recognition), enhancing user experience and security.
+      - Built and consumed GraphQL APIs, facilitating efficient data exchange and application functionality.
+      - UI and feature development through a combination of React and Vue.
+      - Contributed to Fastlane integration, automating the app deployment processes to app store & google play store.
+
+  - Role:     Frontend Developer • Software Engineer
+    Company:  NTT Data
+    Start:    Aug 2021
+    End:      Dec 2021
+    Location: Morrisville, NC - Hybrid
+    Details:
+      - Developed dynamic user interfaces and features using HTML templating, CSS, and vanilla JavaScript.
+      - Leveraged Velocity templates to complement Percussion CMS to deliver dynamic content throughout NIEHS internal
+        system pages.
+
+  - Role:     Frontend Developer • Full-stack Engineer
+    Company:  Glitnir Ticketing
+    Start:    Sep 2017
+    End:      Aug 2021
+    Location: New York, NY - Hybrid
+    Details:
+      - Developed new Vue.js portals (greenfield) and migrated existing ones (brownfield), enhancing user experience 
+        and streamlining application functionality.
+      - Revamped user interfaces, pages, and workflows, improving user experience, ensuring ADA compliance and 
+        visual appeal.
+      - Designed and built a mobile ticket design tool for clients, empowering them to customize, template, 
+        duplicate, and preview tickets seamlessly.
+      - Implemented social distancing and orphan seating logic within the platform, ensuring safety and 
+        optimized seating arrangements.
+      - Owned and delivered multiple user flows from start to finish.
+      - Developed an internal tool to streamline stadium seat building processes, improving team efficiency.
+      - Prototyped designs for various functionalities, ensuring user needs were met before implementation.
+      - Automated team-specific financial data collection using a Go script, enabling concurrent processing 
+        and seamless export to Google Sheets via Google APIs.
+
+Projects:
+  - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.
+  - Poker tourney manager - allows users to manage tournaments for their home games for free
+
+Languages:
+  - American English (native)
+  - Spanish
+
+Skills:
+  - API design and development
+  - UI and feature development
+  - Figma system designing
+  - Front-end architecture
+  - Agile methodologies
+  - Test Driven Development and Behavior Driven Development
+  - 3rd party integration
+  - Brown-field flows
+  - Writing, documenting and communication
+
+Keywords:
+  - Go
+  - TypeScript
+  - JavaScript
+  - Python
+  - C#
+  - PHP
+  - Functional
+  - Object Oriented
+  - Actor Model
+  - TDD
+  - BDD
+  - Unit testing
+  - Web Standards
+  - Web Components
+  - Node/NPM
+  - Docker
+  - AWS
+  - Terraform
+  - gRPC
+  - ProtoBuf
+  - SQL
+  - HTTP
+  - REST
+  - SOAP
+  - HTML templating (Go, jinja, eta, etc.)
+  - CSS
+  - SCSS
+  - React JS
+  - Hooks
+  - Vue 3
+  - Composables
+  - State Management
+  - Server Sent Events
+  - Web Sockets
+  - Web Workers
+  - Service Workers
+  - Design
+  - Figma
+  - GitHub
+  - GitLab
+  - Markdown

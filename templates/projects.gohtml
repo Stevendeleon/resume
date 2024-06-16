@@ -1,0 +1,13 @@
+{{ define "projects-section" }}
+    <!-- projects -->
+    <section class="projects" aria-labelledby="projectsHeader">
+        <h3 id="projectsHeader">Projects</h3>
+        <div id="projects" class="content">
+            <ul>
+                {{range .Projects}}
+                    <li>{{.}}</li>
+                {{end}}
+            </ul>
+        </div>
+    </section>
+{{ end }}

@@ -1,0 +1,14 @@
+{{define "skills-section"}}
+    <!-- skills -->
+    <section class="skills" aria-labelledby="skillsHeader">
+        <h3 id="skillsHeader">Skills</h3>
+
+        <div id="skills" class="content">
+            <ul>
+                {{range .Skills}}
+                    <li>{{.}}</li>
+                {{end}}
+            </ul>
+        </div>
+    </section>
+{{end}}

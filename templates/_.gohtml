@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="{{.MetaData.Author}}">
+    <meta name="description" content="{{.MetaData.Description}}">
+    <link rel="stylesheet" href="/assets/main.css">
+    <title>{{.MetaData.Title}}</title>
+</head>
+<body>
+<main role="main">
+    {{$data := .}}
+    {{ template "heading-section" .Resume }}
+
+    {{ template "experience-section" .Resume }}
+    {{ template "projects-section" .Resume }}
+    {{ template "skills-section" .Resume }}
+
+    <!-- keywords -->
+    <section class="keywords" aria-labelledby="keywordsHeader">
+        <h3 id="keywordsHeader">Keywords</h3>
+
+        <div id="keywords" class="content">
+            <p class="list">
+                {{range $index, $value := .Resume.Keywords}}
+                    {{$value}}{{if ne $index (lenMinusOne $data.Resume.Keywords)}} • {{end}}
+                {{end}}
+            </p>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>
