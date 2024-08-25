@@ -1,14 +1,5 @@
 package pkg
 
-type Experience struct {
-	Role     string   `yaml:"Role"`
-	Company  string   `yaml:"Company"`
-	Start    string   `yaml:"Start"`
-	End      string   `yaml:"End"`
-	Location string   `yaml:"Location"`
-	Details  []string `yaml:"Details"`
-}
-
 type Resume struct {
 	Name      string `yaml:"Name"`
 	Role      string `yaml:"MyRole"`
@@ -22,4 +13,13 @@ type Resume struct {
 	Languages  []string     `yaml:"Languages"`
 	Skills     []string     `yaml:"Skills"`
 	Keywords   []string     `yaml:"Keywords"`
+}
+
+type Experience struct {
+	Role     string   `yaml:"Role"`
+	Company  string   `yaml:"Company"`
+	Start    string   `yaml:"Start"`
+	End      string   `yaml:"End"`
+	Location string   `yaml:"Location"`
+	Details  []string `yaml:"Details"`
 }
