@@ -12,26 +12,11 @@
 </head>
 <body>
 <main role="main">
-    {{$data := .}}
-    {{ template "heading-section" .Resume }}
-
-    {{ template "experience-section" .Resume }}
-    {{ template "projects-section" .Resume }}
-    {{ template "skills-section" .Resume }}
-
-    <!-- keywords -->
-    <section class="keywords" aria-labelledby="keywordsHeader">
-        <h3 id="keywordsHeader">Keywords</h3>
-
-        <div id="keywords" class="content">
-            <p class="list">
-                {{range $index, $value := .Resume.Keywords}}
-                    {{$value}}{{if ne $index (lenMinusOne $data.Resume.Keywords)}} • {{end}}
-                {{end}}
-            </p>
-        </div>
-    </section>
-
+    {{template "heading-section" .Resume}}
+    {{template "experience-section" .Resume}}
+    {{template "projects-section" .Resume}}
+    {{template "skills-section" .Resume}}
+    {{template "keywords-section" .}}
 </main>
 </body>
 </html>

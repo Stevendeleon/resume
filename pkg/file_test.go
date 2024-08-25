@@ -1,7 +1,6 @@
 package pkg
 
 import (
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"testing"
@@ -15,15 +14,20 @@ func TestReadYamlFile_FileNotFound(t *testing.T) {
 }
 
 func TestReadYamlFile_InvalidYaml(t *testing.T) {
-	tempDir, err := ioutil.TempDir("", "test_invalid_yaml_file")
+	tempDir, err := os.MkdirTemp("", "test_invalid_yaml_file")
 	if err != nil {
 		t.Fatal(err)
 	}
-	defer os.RemoveAll(tempDir)
+	defer func(path string) {
+		err = os.RemoveAll(path)
+		if err != nil {
+
+		}
+	}(tempDir)
 
 	invalidYamlContent := `: invalid yaml`
 	fileName := filepath.Join(tempDir, "invalid_resume.yml")
-	err = ioutil.WriteFile(fileName, []byte(invalidYamlContent), 0644)
+	err = os.WriteFile(fileName, []byte(invalidYamlContent), 0644)
 	if err != nil {
 		t.Fatal(err)
 	}
