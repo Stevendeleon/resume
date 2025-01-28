@@ -1,0 +1,117 @@
+Name:      Steven DeLeon
+MyRole:    Software Engineer • Full-stack Engineer • Mentor
+Email:     stevendeleon2892@gmail.com
+Location:  New York, NY
+PageTitle: Steven_DeLeon_Resume
+Phone:     631-505-8123
+
+Mission:
+  Enhancing user interactions and experiences while continually learning and adapting to new technologies
+
+Experience:
+
+  - Role:     Full-stack Software Engineer • Frontend Champion
+    Company:  BJSS
+    Start:    Jul 2022
+    Location: New York, NY - Hybrid
+    Details:
+      - Led development of a framework-agnostic component library complimented with Storybook from a figma design system,
+        refactored codebases (Vue 2 to Vue 3), implemented visually appealing interfaces that are ADA-compliant, secure
+        + performant, and also developed APIs & services using a mixture of Go, C#, and TypeScript.
+      - Managed database tables for data integrity, built internal automation tools, and various complex user interfaces.
+      - Mentored junior developers and contributed to user journey prototypes and proof-of-concepts in Figma.
+        Actively volunteer with City Tutors weekly to teach programming fundamentals and Web Development to CUNY Students.
+        (JavaScript & Python)
+
+  - Role:     Full-stack Software Engineer
+    Company:  Blue Cross Blue Shield
+    Start:    Dec 2021
+    End:      Jul 2022
+    Location: Durham, NC - Remote
+    Details:
+      - Developed secure 3-step credit card flow, enabled biometric login, enhancing UX and app security, and actively
+        contributed to feature development with Vue and TypeScript.
+      - Built and consumed GraphQL APIs and integrated Fastlane for automated deployment.
+
+  - Role:     Software Engineer
+    Company:  NTT Data
+    Start:    Aug 2021
+    End:      Dec 2021
+    Location: Morrisville, NC - Hybrid
+    Details:
+      - Developed dynamic interfaces using HTML, CSS, vanilla JS, and Velocity templates for internal content management systems.
+      - Built and tested various APIs with Java
+
+  - Role:     Full-stack Engineer • Front-end Lead
+    Company:  Glitnir Ticketing
+    Start:    Sep 2017
+    End:      Aug 2021
+    Location: New York, NY - Hybrid
+    Details:
+      - Developed and migrated various flows and portals with Vue.js and PHP, revamped UIs for ADA compliance,
+        prototyped various features and pages with Figma, and created a customizable mobile ticketing tool for clients.
+      - Implemented social distancing & orphan seating logic, automated financial data collection with Go,
+        and streamlined internal stadium seat building processes.
+
+Projects:
+  - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.
+  - Poker tourney manager - allows users to manage tournaments for their home games for free
+
+Languages:
+  - American English (native)
+  - Spanish
+
+Skills:
+  - API design and development
+  - UI and feature development
+  - Figma system designing
+  - Front-end architecture
+  - Agile methodologies
+  - Test Driven Development and Behavior Driven Development
+  - 3rd party integration
+  - Brown-field flows
+  - Writing, documenting and communication
+
+Keywords:
+  - Go
+  - TypeScript
+  - JavaScript
+  - Python
+  - C#
+  - PHP
+  - Functional
+  - Object Oriented
+  - Actor Model
+  - TDD
+  - BDD
+  - Unit testing
+  - Web Standards
+  - Web Components
+  - Node/NPM
+  - Docker
+  - AWS
+  - Terraform
+  - gRPC
+  - ProtoBuf
+  - SQL
+  - HTTP
+  - REST
+  - SOAP
+  - HTML templating (Go, jinja, eta, etc.)
+  - CSS
+  - SCSS
+  - CSS Component Libraries
+  - React JS
+  - Hooks
+  - Vue 3
+  - Composables
+  - State Management
+  - Server Sent Events
+  - Web Sockets
+  - Web Workers
+  - Service Workers
+  - Design
+  - Figma
+  - GitHub
+  - GitLab
+  - Markdown

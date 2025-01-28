@@ -1,0 +1,137 @@
+Name:      Steven DeLeon
+MyRole:    Frontend Engineer • Software Engineer • Designer • Mentor
+Email:     stevendeleon2892@gmail.com
+Location:  New York, NY
+PageTitle: Steven_DeLeon_Resume
+Phone:     631-505-8123
+
+Mission:
+  Enhancing user interactions and experiences while continually learning and adapting to new technologies
+
+Experience:
+
+  - Role:     Frontend Engineer • Software Engineer • Full-stack Engineer
+    Company:  BJSS
+    Start:    Jul 2022
+    Location: New York, NY - Hybrid
+    Details:
+      - Led development of a framework-agnostic component library complimented with Storybook from a Figma design system,
+        refactored codebases (Vue 2 to Vue 3), implemented complex and data-rich user interfaces for dashboards, 
+        reporting pages, and client-specific flows leveraging best practices from Vue, Angular and React.
+      - Contributed to backend services and data-layer architecture using Go, C# and TypeScript enabling efficient API 
+        interactions and data processing.
+      - Built internal tooling and automation solutions to improve developer quality of life and deliver faster
+        iteration cycles for front-end development workflows.
+      - Mentored junior developers in advanced front-end practices, including UI/UX principl4es, 
+        component-driven development, performance optimizations, and responsive design.
+      - Actively volunteer with City Tutors weekly to teach web development (JavaScript & Python) to CUNY students,
+        promoting best practices for building interactive and accessible front-end solutions.
+
+  - Role:     Frontend Developer • Software Engineer
+    Company:  Blue Cross Blue Shield
+    Start:    Dec 2021
+    End:      Jul 2022
+    Location: Durham, NC - Remote
+    Details:
+      - Developed secure 3-step credit card flow, enabled biometric login, enhancing UX and app security, and actively
+        contributed to feature development with React, Vue and TypeScript.
+      - Built and consumed GraphQL APIs and integrated Fastlane for automated deployment.
+
+  - Role:     Frontend Developer • Software Engineer
+    Company:  NTT Data
+    Start:    Aug 2021
+    End:      Dec 2021
+    Location: Morrisville, NC - Hybrid
+    Details:
+      - Developed dynamic interfaces using HTML, CSS, vanilla JS, and Velocity templates for internal content management systems.
+
+  - Role:     Frontend Developer • Full-stack Engineer
+    Company:  Glitnir Ticketing
+    Start:    Sep 2017
+    End:      Aug 2021
+    Location: New York, NY - Hybrid
+    Details:
+      - Developed and migrated various flows and portals with Vue.js and PHP, revamped UIs for ADA compliance, 
+        prototyped various features and pages with Figma, and created a customizable mobile ticketing tool for clients.
+      - Implemented social distancing & orphan seating logic, automated financial data collection with Go,
+        and streamlined internal stadium seat building processes.
+
+Projects:
+  - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.
+  - Poker tourney manager - allows users to manage tournaments for their home games for free
+
+Languages:
+  - American English (native)
+  - Spanish
+
+Skills:
+  - API design and development
+  - UI and feature development
+  - Figma system designing
+  - Front-end architecture
+  - Agile methodologies
+  - Test Driven Development and Behavior Driven Development
+  - 3rd party integration
+  - Brown-field flows
+  - Writing, documenting and communication
+
+Keywords:
+  - Go
+  - TypeScript
+  - JavaScript
+  - Python
+  - C#
+  - PHP
+  - Functional Programming
+  - Object-Oriented Programming
+  - Actor Model
+  - TDD (Test-Driven Development)
+  - BDD (Behavior-Driven Development)
+  - Unit Testing
+  - Integration Testing
+  - Web Standards
+  - Web Components
+  - Node.js / NPM
+  - Docker
+  - GCP
+  - AWS
+  - Azure
+  - Terraform
+  - gRPC
+  - ProtoBuf
+  - SQL
+  - NoSQL
+  - REST
+  - GraphQL
+  - SOAP
+  - HTTP
+  - Authentication (OAuth, SSO, RBAC)
+  - State Management (Redux, Pinia, Vuex)
+  - Dashboards
+  - API Design
+  - HTML templating (Go, jinja, eta, etc.)
+  - CSS
+  - SCSS
+  - Styled Components
+  - CSS-in-JS
+  - CSS Component Libraries (Material UI, Bootstrap, TailwindCSS)
+  - React.js
+  - React Hooks
+  - Vue 3
+  - Vue Composables
+  - Angular
+  - SSR (Server-Side Rendering)
+  - Dynamic Rendering
+  - Front-end Performance Optimization
+  - Server Sent Events (SSE)
+  - WebSockets
+  - Web Workers
+  - Service Workers
+  - Design Systems
+  - Figma
+  - Storybook
+  - Git
+  - GitHub
+  - GitLab
+  - CI/CD Pipelines
+  - Markdown

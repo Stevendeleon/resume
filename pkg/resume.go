@@ -13,6 +13,7 @@ type Resume struct {
 	Name      string `yaml:"Name"`
 	Role      string `yaml:"MyRole"`
 	Email     string `yaml:"Email"`
+	Phone     string `yaml:"Phone"`
 	Location  string `yaml:"Location"`
 	PageTitle string `yaml:"PageTitle"`
 	Mission   string `yaml:"Mission"`

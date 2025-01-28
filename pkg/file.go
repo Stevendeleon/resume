@@ -8,7 +8,7 @@ import (
 )
 
 func ReadYamlFile(fileName string) (*Resume, error) {
-	filePath := fmt.Sprintf("%s.yml", fileName)
+	filePath := fmt.Sprintf("data/%s.yml", fileName)
 
 	file, err := os.ReadFile(filePath)
 	if err != nil {

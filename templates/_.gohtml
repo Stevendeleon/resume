@@ -16,8 +16,30 @@
     {{ template "heading-section" .Resume }}
 
     {{ template "experience-section" .Resume }}
-    {{ template "projects-section" .Resume }}
-    {{ template "skills-section" .Resume }}
+{{/*    {{ template "projects-section" .Resume }}*/}}
+{{/*    {{ template "skills-section" .Resume }}*/}}
+
+    <!-- edu -->
+{{/*    <section class="education" aria-labelledby="educationHeader">*/}}
+{{/*        <h3 id="educationHeader">Education</h3>*/}}
+
+{{/*        <div id="education" class="content">*/}}
+{{/*            Bachelors of Science - Information Technology | Purdue Global University*/}}
+{{/*        </div>*/}}
+{{/*    </section>*/}}
+
+    <!-- skills -->
+    <section class="skills" aria-labelledby="skillsHeader">
+        <h3 id="skillsHeader">Skills</h3>
+
+        <div id="skills" class="content">
+            <p class="list">
+                {{range $index, $value := .Resume.Skills}}
+                    {{$value}}{{if ne $index (lenMinusOne $data.Resume.Skills)}} • {{end}}
+                {{end}}
+            </p>
+        </div>
+    </section>
 
     <!-- keywords -->
     <section class="keywords" aria-labelledby="keywordsHeader">

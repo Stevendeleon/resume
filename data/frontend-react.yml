@@ -1,0 +1,120 @@
+Name:      Steven DeLeon
+MyRole:    Senior Frontend Developer • Software Engineer • Designer • Mentor
+Email:     stevendeleon2892@gmail.com
+Location:  New York, NY
+PageTitle: Steven_DeLeon_Resume
+Phone:     631-505-8123
+
+Mission:
+  Enhancing user interactions and experiences while continually learning and adapting to new technologies
+
+Experience:
+
+  - Role:     Senior Frontend Engineer • Software Engineer • Full-stack Engineer • Frontend Champion
+    Company:  BJSS
+    Start:    Jul 2022
+    Location: New York, NY - Hybrid
+    Details:
+      - Led development of an internal component library for React.js complimented with Storybook from a figma design system,
+        implemented features with React 16+ & Angular 14+ leveraging best practices,
+        and also developed APIs & services using Go, C#, and TypeScript along with testing.
+      - Managed database tables for data integrity, built internal automation tools,
+        and implemented a dynamic SSR SVG builder for visualizing load effects on roof and wall panels for structural 
+        engineers.
+      - Mentored junior developers and contributed to user journey prototypes and proof-of-concepts in Figma.
+        Actively volunteer with City Tutors weekly to teach programming fundamentals and Web Development to CUNY Students.
+        (JavaScript & Python)
+
+  - Role:     Frontend Developer • Software Engineer
+    Company:  Blue Cross Blue Shield
+    Start:    Dec 2021
+    End:      Jul 2022
+    Location: Durham, NC - Remote
+    Details:
+      - Developed secure 3-step credit card flow, enabled biometric login, enhancing UX and app security, and actively
+        contributed to feature development with React and TypeScript.
+      - Built and consumed GraphQL APIs and integrated Fastlane for automated deployment.
+
+  - Role:     Frontend Developer • Software Engineer
+    Company:  NTT Data
+    Start:    Aug 2021
+    End:      Dec 2021
+    Location: Morrisville, NC - Hybrid
+    Details:
+      - Developed dynamic interfaces using React combined with Java to build internal content management systems.
+
+  - Role:     Frontend Developer • Full-stack Engineer
+    Company:  Glitnir Ticketing
+    Start:    Sep 2017
+    End:      Aug 2021
+    Location: New York, NY - Hybrid
+    Details:
+      - Developed and migrated various flows and portals using React, revamped UIs for ADA compliance,
+        prototyped various features and pages with Figma, and created a customizable mobile ticketing tool for clients.
+      - Implemented social distancing & orphan seating logic, automated financial data collection with Go,
+        and streamlined internal stadium seat building processes.
+
+Projects:
+  - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.
+  - Poker tourney manager - allows users to streamline, manage and distribute their tournaments.
+
+Languages:
+  - American English (native)
+  - Spanish
+
+Skills:
+  - API design and development
+  - UI and feature development
+  - Figma system designing
+  - Front-end architecture
+  - Agile methodologies
+  - Test Driven Development and Behavior Driven Development
+  - 3rd party integration
+  - Brown-field flows
+  - Writing, documenting and clear communicating
+
+Keywords:
+  - Go
+  - TypeScript
+  - JavaScript
+  - Python
+  - C#
+  - PHP
+  - Functional
+  - Object Oriented
+  - Actor Model
+  - TDD
+  - BDD
+  - Unit testing
+  - Web Standards
+  - Web Components
+  - Node/NPM
+  - Deno
+  - Docker
+  - AWS
+  - Terraform
+  - gRPC
+  - ProtoBuf
+  - SQL
+  - HTTP
+  - REST
+  - SOAP
+  - HTML templating (Go, jinja, eta, etc.)
+  - CSS
+  - SCSS
+  - CSS Component Libraries
+  - Angular JS
+  - React JS
+  - Hooks
+  - Vue JS
+  - Composables
+  - State Management
+  - Server Sent Events
+  - Web Sockets
+  - Web Workers
+  - Service Workers
+  - Design
+  - Figma
+  - GitHub
+  - GitLab
+  - Markdown
