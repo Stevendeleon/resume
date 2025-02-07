@@ -17,6 +17,7 @@ type Resume struct {
 	Location  string `yaml:"Location"`
 	PageTitle string `yaml:"PageTitle"`
 	Mission   string `yaml:"Mission"`
+	Education string `yaml:"Education"`
 
 	Experience []Experience `yaml:"Experience"`
 	Projects   []string     `yaml:"Projects"`

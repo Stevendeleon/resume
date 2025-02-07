@@ -7,6 +7,7 @@ import (
 	"github.com/Stevendeleon/pkg"
 )
 
+// the main
 func main() {
 	jobType := pkg.GetJobType()
 

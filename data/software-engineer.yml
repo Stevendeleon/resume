@@ -6,7 +6,10 @@ PageTitle: Steven_DeLeon_Resume
 Phone:     631-505-8123
 
 Mission:
-  Enhancing user interactions and experiences while continually learning and adapting to new technologies
+  Building high-quality, scalable, and user-centric applications while continuously learning and adapting to new technologies.
+
+Education:
+  Bachelors of Science, Information Technology, Purdue
 
 Experience:
 
@@ -15,13 +18,16 @@ Experience:
     Start:    Jul 2022
     Location: New York, NY - Hybrid
     Details:
-      - Led development of a framework-agnostic component library complimented with Storybook from a figma design system,
-        refactored codebases (Vue 2 to Vue 3), implemented visually appealing interfaces that are ADA-compliant, secure
-        + performant, and also developed APIs & services using a mixture of Go, C#, and TypeScript.
-      - Managed database tables for data integrity, built internal automation tools, and various complex user interfaces.
-      - Mentored junior developers and contributed to user journey prototypes and proof-of-concepts in Figma.
-        Actively volunteer with City Tutors weekly to teach programming fundamentals and Web Development to CUNY Students.
-        (JavaScript & Python)
+      - Led the development of a framework-agnostic component library, ensuring compatibility across multiple frontend ecosystems.
+      - Integrated Storybook with Figma-based designs to enhance UI/UX consistency and maintainability.
+      - Refactored codebases, migrating from Vue 2 to Vue 3, improving performance, maintainability, and modern feature adoption.
+      - Designed and implemented accessible, secure, and high-performance user interfaces, ensuring ADA compliance.
+      - Developed APIs and backend services using Go, C#, and TypeScript, supporting frontend applications and internal tools.
+      - Managed database schemas and tables to maintain data integrity and performance optimization.
+      - Built internal automation tools to streamline development workflows and increase engineering efficiency.
+      - Mentored junior developers, guiding them on best practices, code reviews, and modern development techniques.
+      - Contributed to user journey prototypes and proof-of-concepts in Figma, validating design decisions.
+      - Volunteered weekly with City Tutors, teaching JavaScript & Python fundamentals and web development to CUNY students.
 
   - Role:     Full-stack Software Engineer
     Company:  Blue Cross Blue Shield
@@ -29,9 +35,11 @@ Experience:
     End:      Jul 2022
     Location: Durham, NC - Remote
     Details:
-      - Developed secure 3-step credit card flow, enabled biometric login, enhancing UX and app security, and actively
-        contributed to feature development with Vue and TypeScript.
-      - Built and consumed GraphQL APIs and integrated Fastlane for automated deployment.
+      - Developed a secure 3-step credit card payment flow, improving payment security and user experience.
+      - Implemented biometric authentication for login, enhancing app security and streamlining user access.
+      - Contributed to frontend feature development using Vue and TypeScript, optimizing performance and UX.
+      - Built and consumed GraphQL APIs, integrating dynamic and real-time data interactions.
+      - Integrated Fastlane for automated deployment pipelines, streamlining app releases and CI/CD processes.
 
   - Role:     Software Engineer
     Company:  NTT Data
@@ -39,8 +47,9 @@ Experience:
     End:      Dec 2021
     Location: Morrisville, NC - Hybrid
     Details:
-      - Developed dynamic interfaces using HTML, CSS, vanilla JS, and Velocity templates for internal content management systems.
-      - Built and tested various APIs with Java
+      - Developed dynamic user interfaces using HTML, CSS, vanilla JavaScript, and Velocity templates for enterprise content management systems.
+      - Built and tested REST APIs with Java, ensuring secure and efficient backend communication.
+      - Optimized UI performance and accessibility, improving page load times and user experience.
 
   - Role:     Full-stack Engineer • Front-end Lead
     Company:  Glitnir Ticketing
@@ -48,11 +57,13 @@ Experience:
     End:      Aug 2021
     Location: New York, NY - Hybrid
     Details:
-      - Developed and migrated various flows and portals with Vue.js and PHP, revamped UIs for ADA compliance,
-        prototyped various features and pages with Figma, and created a customizable mobile ticketing tool for clients.
-      - Implemented social distancing & orphan seating logic, automated financial data collection with Go,
-        and streamlined internal stadium seat building processes.
-
+      - Led frontend development and UI/UX revamps, ensuring ADA compliance and improved accessibility.
+      - Migrated and enhanced various ticketing flows and portals using Vue.js and PHP, modernizing legacy applications.
+      - Prototyped and designed new features using Figma, improving user interactions and ticketing experience.
+      - Developed a customizable mobile ticketing tool, allowing clients to brand and personalize their ticketing experience.
+      - Implemented social distancing & orphan seat logic during the COVID-19 pandemic, ensuring safe event seating.
+      - Automated financial data collection and reporting with Go, reducing manual reporting time for finance teams.
+      - Streamlined stadium seat-building processes, optimizing the ticketing experience for large venues.
 Projects:
   - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.
   - Poker tourney manager - allows users to manage tournaments for their home games for free
@@ -78,18 +89,24 @@ Keywords:
   - JavaScript
   - Python
   - C#
+  - Java
   - PHP
+  - Linux
   - Functional
   - Object Oriented
   - Actor Model
   - TDD
   - BDD
+  - CDD
   - Unit testing
   - Web Standards
   - Web Components
   - Node/NPM
+  - Deno
   - Docker
   - AWS
+  - Azure
+  - GCP
   - Terraform
   - gRPC
   - ProtoBuf
@@ -101,11 +118,17 @@ Keywords:
   - CSS
   - SCSS
   - CSS Component Libraries
+  - Angular JS
   - React JS
   - Hooks
-  - Vue 3
+  - Vue JS
   - Composables
   - State Management
+  - Redux
+  - Pinia
+  - Vuex
+  - Vue 2
+  - Vue 3
   - Server Sent Events
   - Web Sockets
   - Web Workers

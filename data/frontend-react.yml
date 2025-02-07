@@ -1,29 +1,26 @@
 Name:      Steven DeLeon
-MyRole:    Senior Frontend Developer • Software Engineer • Designer • Mentor
+MyRole:    Frontend Developer • Software Engineer • Designer • Mentor
 Email:     stevendeleon2892@gmail.com
 Location:  New York, NY
 PageTitle: Steven_DeLeon_Resume
 Phone:     631-505-8123
 
 Mission:
-  Enhancing user interactions and experiences while continually learning and adapting to new technologies
+  Passionate about crafting intuitive, performant, and accessible user interfaces while continuously expanding my knowledge of modern web technologies.
 
 Experience:
-
-  - Role:     Senior Frontend Engineer • Software Engineer • Full-stack Engineer • Frontend Champion
+  - Role:     Frontend Engineer • Software Engineer • Full-stack Engineer
     Company:  BJSS
     Start:    Jul 2022
     Location: New York, NY - Hybrid
     Details:
-      - Led development of an internal component library for React.js complimented with Storybook from a figma design system,
-        implemented features with React 16+ & Angular 14+ leveraging best practices,
-        and also developed APIs & services using Go, C#, and TypeScript along with testing.
-      - Managed database tables for data integrity, built internal automation tools,
-        and implemented a dynamic SSR SVG builder for visualizing load effects on roof and wall panels for structural 
-        engineers.
-      - Mentored junior developers and contributed to user journey prototypes and proof-of-concepts in Figma.
-        Actively volunteer with City Tutors weekly to teach programming fundamentals and Web Development to CUNY Students.
-        (JavaScript & Python)
+      - Led the development of an internal React component library, integrating Storybook and ensuring seamless alignment with a Figma-based design system.
+      - Built and optimized reusable UI components in React 16+, improving consistency and developer experience across applications.
+      - Developed dynamic dashboards and visually rich pages for internal tools, enhancing data visualization and user interaction.
+      - Implemented a dynamic SSR SVG builder to visualize structural load effects on roof and wall panels, empowering engineers with real-time graphical insights.
+      - Collaborated across teams, integrating React components with Angular 14+ applications and backend services written in Go, C#, and TypeScript.
+      - Mentored junior developers, reviewed code, and contributed to user journey prototypes and proof-of-concepts in Figma.
+      - Actively volunteer with City Tutors weekly, teaching JavaScript & Python fundamentals and web development to CUNY students.
 
   - Role:     Frontend Developer • Software Engineer
     Company:  Blue Cross Blue Shield
@@ -31,9 +28,10 @@ Experience:
     End:      Jul 2022
     Location: Durham, NC - Remote
     Details:
-      - Developed secure 3-step credit card flow, enabled biometric login, enhancing UX and app security, and actively
-        contributed to feature development with React and TypeScript.
-      - Built and consumed GraphQL APIs and integrated Fastlane for automated deployment.
+      - Developed a secure 3-step credit card flow and enabled biometric authentication, enhancing UX and application security.
+      - Built and integrated key features using React and TypeScript, improving application performance and maintainability.
+      - Worked extensively with GraphQL APIs, optimizing data fetching for a seamless user experience.
+      - Implemented Fastlane for automated CI/CD, streamlining deployment and improving development efficiency.
 
   - Role:     Frontend Developer • Software Engineer
     Company:  NTT Data
@@ -41,7 +39,7 @@ Experience:
     End:      Dec 2021
     Location: Morrisville, NC - Hybrid
     Details:
-      - Developed dynamic interfaces using React combined with Java to build internal content management systems.
+      - Developed dynamic UIs using React & Java, improving the usability of internal content management systems.
 
   - Role:     Frontend Developer • Full-stack Engineer
     Company:  Glitnir Ticketing
@@ -49,10 +47,11 @@ Experience:
     End:      Aug 2021
     Location: New York, NY - Hybrid
     Details:
-      - Developed and migrated various flows and portals using React, revamped UIs for ADA compliance,
-        prototyped various features and pages with Figma, and created a customizable mobile ticketing tool for clients.
-      - Implemented social distancing & orphan seating logic, automated financial data collection with Go,
-        and streamlined internal stadium seat building processes.
+      - Migrated legacy flows Ato modern React and redesigned UIs for ADA compliance.
+      - Prototyped and designed features using Figma, improving UX consistency.
+      - Developed a customizable mobile ticketing tool, enhancing flexibility for clients.
+      - Implemented social distancing & orphan seating logic for event venues, streamlining seat assignment.
+      - Automated financial data collection using Go, reducing manual processing time.
 
 Projects:
   - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.

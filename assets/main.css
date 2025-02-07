@@ -35,26 +35,17 @@ main {
             display: flex;
             align-items: center;
             justify-content: flex-start;
-
             padding: .25rem 0;
 
-            & > svg {
-                width: 22px;
-                height: 22px;
-
-                margin-right: .25rem;
-            }
-
-            svg:first-of-type {
-                margin-left: -3px;
-            }
-
-            & > span:first-of-type {
+            span {
                 margin-right: .5rem;
-            }
-
-            & > svg:last-of-type {
-                margin-left: .25rem;
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
             }
         }
 
@@ -70,7 +61,6 @@ main {
         margin-bottom: 1.5rem;
     }
 
-
     section {
         margin: 0.75rem 0;
 
@@ -81,7 +71,6 @@ main {
 
         ul {
             padding-left: 1.5rem;
-
             li::marker {
                 color: #838383;
             }
@@ -130,8 +119,6 @@ main {
                 max-width: 80%;
             }
         }
-
-
     }
 
     .projects {
@@ -147,5 +134,4 @@ main {
             max-width: 80%;
         }
     }
-
 }

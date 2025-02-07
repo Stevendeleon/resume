@@ -6,22 +6,34 @@ PageTitle: Steven_DeLeon_Resume
 Phone:     631-505-8123
 
 Mission:
-  Enhancing user interactions and experiences while continually learning and adapting to new technologies
+  Passionate about crafting intuitive, performant, and accessible user interfaces while continuously expanding my knowledge of modern web technologies.
+
+Education:
+  Bachelors of Science, Information Technology, Purdue
 
 Experience:
-
   - Role:     Full-stack Software Engineer • Frontend Champion
     Company:  BJSS
     Start:    Jul 2022
     Location: New York, NY - Hybrid
     Details:
-      - Led development of a framework-agnostic component library complimented with Storybook from a figma design system,
-        refactored codebases (Vue 2 to Vue 3), implemented visually appealing interfaces using Vue 3 and React that are 
-        ADA-compliant, secure and performant. Developed APIs & services using a mixture of Go, C#, and TypeScript.
-      - Managed database tables for data integrity, built internal automation tools, and various complex user interfaces.
-      - Mentored junior developers and contributed to user journey prototypes and proof-of-concepts in Figma.
-        Actively volunteer with City Tutors weekly to teach programming fundamentals and Web Development to CUNY Students.
-        (JavaScript & Python)
+      - Led development of a framework-agnostic, scalable component library powered by Vue 3, TypeScript, and Storybook,
+        integrating a Figma design system and ensuring WCAG 2.1 AA compliance.
+      - Spearheaded the migration of legacy Vue 2 codebases to Vue 3, optimizing reactivity and performance with
+        the Composition API, script setup, and Pinia for state management.
+      - Engineered a real-time dashboard with Vue 3 and D3.js, visualizing high-volume analytics data with interactive
+        charts, lazy loading, and dynamic filtering.
+      - Developed APIs & services with Go, C#, and TypeScript, ensuring seamless data retrieval and efficient client-server
+        interactions.
+      - Created robust unit and integration tests using Vitest and Cypress to enhance maintainability and reduce regressions.
+      - Designed and implemented reusable UI patterns and custom directives for better developer experience and consistency.
+      - Developed internal automation tools, CI/CD pipelines, and dev tooling enhancements, reducing deployment times
+        and improving DX.
+      - Mentored junior developers in Vue.js, TypeScript, and frontend best practices through hands-on code reviews
+        and pair programming.
+      - Prototyped user journeys, proof-of-concepts, and UX flows in Figma, improving user engagement and business conversions.
+      - Actively volunteer with City Tutors weekly to teach programming fundamentals and Web Development to CUNY Students
+        (JavaScript & Python).
 
   - Role:     Frontend Developer • Software Engineer
     Company:  Blue Cross Blue Shield
@@ -29,9 +41,12 @@ Experience:
     End:      Jul 2022
     Location: Durham, NC - Remote
     Details:
-      - Developed secure 3-step credit card flow, enabled biometric login, enhancing UX and app security, and actively
-        contributed to feature development with Vue and TypeScript.
-      - Built and consumed GraphQL APIs and integrated Fastlane for automated deployment.
+      - Developed a secure, frictionless 3-step credit card payment flow with Vue 3 and TypeScript, improving conversion
+        rates and ensuring PCI compliance.
+      - Integrated biometric authentication (Face ID & Touch ID) into the app, enhancing security and streamlining login UX.
+      - Built and consumed GraphQL APIs with Apollo Client, improving data-fetching efficiency and reducing client-side overhead.
+      - Implemented and optimized form validation logic with Vuelidate, ensuring robust and user-friendly error handling.
+      - Automated mobile app deployments with Fastlane, reducing manual release overhead and improving CI/CD pipelines.
 
   - Role:     Frontend Developer • Software Engineer
     Company:  NTT Data
@@ -39,7 +54,9 @@ Experience:
     End:      Dec 2021
     Location: Morrisville, NC - Hybrid
     Details:
-      - Developed dynamic interfaces using HTML, CSS, vanilla JS, and Velocity templates for internal content management systems.
+      - Developed dynamic interfaces using HTML, CSS, JavaScript, and Velocity templates, enhancing internal CMS capabilities.
+      - Improved frontend performance through asset optimization, lazy loading, and code-splitting strategies.
+      - Collaborated with backend teams to refine API contracts and improve data-handling efficiency on the frontend.
 
   - Role:     Frontend Developer • Full-stack Engineer
     Company:  Glitnir Ticketing
@@ -47,10 +64,15 @@ Experience:
     End:      Aug 2021
     Location: New York, NY - Hybrid
     Details:
-      - Developed and migrated various flows and portals with Vue.js and PHP, revamped UIs for ADA compliance,
-        prototyped various features and pages with Figma, and created a customizable mobile ticketing tool for clients.
-      - Implemented social distancing & orphan seating logic, automated financial data collection with Go,
-        and streamlined internal stadium seat building processes.
+      - Architected and built a highly customizable mobile ticketing system with Vue.js and TypeScript, enabling real-time
+        event access for thousands of users.
+      - Led the migration of legacy jQuery-based UIs to Vue.js, improving maintainability, reactivity, and UX responsiveness.
+      - Developed ADA-compliant UI enhancements, ensuring accessibility for users with disabilities.
+      - Designed and prototyped new feature flows in Figma, enabling rapid iteration on UX improvements.
+      - Implemented complex seat selection logic, including social distancing and orphan seat handling, to optimize
+        stadium seating arrangements.
+      - Automated financial data reporting using Go and integrated it with Vue dashboards for real-time revenue tracking.
+      - Created reusable Vue components and a design system to standardize UI across multiple ticketing platforms.
 
 Projects:
   - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.
