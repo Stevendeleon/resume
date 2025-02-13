@@ -1,7 +1,6 @@
 package pkg
 
 import (
-	"fmt"
 	"html/template"
 	"os"
 )
@@ -53,8 +52,4 @@ func GenerateHTML(resume *Resume) error {
 
 func lenMinusOne(s []string) int {
 	return len(s) - 1
-}
-
-func helloWorld(name string) {
-	fmt.Printf("Hello %s", name)
 }

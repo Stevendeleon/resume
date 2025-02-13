@@ -1,19 +1,16 @@
 package pkg
 
 import (
-	"embed"
 	"fmt"
+	"os"
 
 	"gopkg.in/yaml.v2"
 )
 
-//go:embed data/*.yml
-var yamlFiles embed.FS
-
 func ReadYamlFile(fileName string) (*Resume, error) {
 	filePath := fmt.Sprintf("data/%s.yml", fileName)
 
-	file, err := yamlFiles.ReadFile(filePath)
+	file, err := os.ReadFile(filePath)
 	if err != nil {
 		return nil, err
 	}
