@@ -14,11 +14,13 @@ Experience:
     Start:    Jul 2022
     Location: New York, NY - Hybrid
     Details:
-      - Led the development of an internal React component library, integrating Storybook and ensuring seamless alignment with a Figma-based design system.
+      - Led the development of an internal React component library, integrating Storybook and ensuring seamless 
+        alignment with a Figma-based design system.
       - Built and optimized reusable UI components in React 16+, improving consistency and developer experience across applications.
-      - Developed dynamic dashboards and visually rich pages for internal tools, enhancing data visualization and user interaction.
-      - Implemented a dynamic SSR SVG builder to visualize structural load effects on roof and wall panels, empowering engineers with real-time graphical insights.
-      - Collaborated across teams, integrating React components with Angular 14+ applications and backend services written in Go, C#, and TypeScript.
+      - Developed dynamic, data-driven dashboards and interactive pages using React, enhancing data visualization and 
+        user engagement for internal tools
+      - Optimized app performance with code splitting and leveraging memoization techniques with React.
+      - Collaborated across teams developing and consuming backend services with React written in Go, C#, and TypeScript.
       - Mentored junior developers, reviewed code, and contributed to user journey prototypes and proof-of-concepts in Figma.
       - Actively volunteer with City Tutors weekly, teaching JavaScript & Python fundamentals and web development to CUNY students.
 

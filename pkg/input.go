@@ -4,6 +4,8 @@ import (
 	"flag"
 )
 
+// provide the file as a flag -j or -jobType <file-name>
+// this file should live in /data as a yaml
 func GetJobType() string {
 	var jobType string
 
