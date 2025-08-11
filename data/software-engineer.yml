@@ -1,25 +1,36 @@
-Name:      Steven DeLeon
-MyRole:    Software Engineer • Full-stack Engineer • Mentor
-Email:     stevendeleon2892@gmail.com
-Location:  New York, NY
-PageTitle: Steven_DeLeon_Resume
-Phone:     631-505-8123
+Name:        Steven DeLeon
+Email:       stevendeleon2892@gmail.com
+Location:    New York, NY
+PageTitle:   Steven_DeLeon_Resume
+Phone:       631-505-8123
+LinkedInUrl: https://www.linkedin.com/in/steve-deleon/
 
-Mission:
-  Building high-quality, scalable, and user-centric applications while continuously learning and adapting to new technologies.
+Summary:
+  I am a Senior Software Engineer with 8 professional years of experience specializing in JavaScript, React, and Web Development.
+  I'm well versed within the JavaScript Ecosystem, I adhere to web standards and keep up with the latest tech.
 
 Education:
-  Bachelors of Science, Information Technology, Purdue
+  - School:  Southern New Hampshire University
+    Degree:  MS
+    Major:   Software Engineering
+    Year:    Expected 2027
+  - School:  Southern New Hampshire University
+    Degree:  BS
+    Major:   Computer Science
+    Year:    Expected 2025
+
 
 Experience:
-
-  - Role:     Full-stack Software Engineer • Frontend Champion
-    Company:  BJSS
+  - Role:     Full-stack Software Engineer
+    Company:  CGI
     Start:    Jul 2022
-    Location: New York, NY - Hybrid
+    Location: New York, NY
+    Clients:
+      - bet365
+      - Titanbay
     Details:
-      - Led the development of a framework-agnostic component library, ensuring compatibility across multiple frontend ecosystems.
-      - Integrated Storybook with Figma-based designs to enhance UI/UX consistency and maintainability.
+      - Delivered a framework-agnostic component library adopted by 10 legacy clients, and over 40 new clients.
+        Reduces duplicate code by 20-40% and cutting future lead time by 20%.
       - Refactored codebases, migrating from Vue 2 to Vue 3, improving performance, maintainability, and modern feature adoption.
       - Designed and implemented accessible, secure, and high-performance user interfaces, ensuring ADA compliance.
       - Developed APIs and backend services using Go, C#, and TypeScript, supporting frontend applications and internal tools.
@@ -33,7 +44,7 @@ Experience:
     Company:  Blue Cross Blue Shield
     Start:    Dec 2021
     End:      Jul 2022
-    Location: Durham, NC - Remote
+    Location: Durham, NC
     Details:
       - Developed a secure 3-step credit card payment flow, improving payment security and user experience.
       - Implemented biometric authentication for login, enhancing app security and streamlining user access.
@@ -45,17 +56,17 @@ Experience:
     Company:  NTT Data
     Start:    Aug 2021
     End:      Dec 2021
-    Location: Morrisville, NC - Hybrid
+    Location: Morrisville, NC
     Details:
       - Developed dynamic user interfaces using HTML, CSS, vanilla JavaScript, and Velocity templates for enterprise content management systems.
       - Built and tested REST APIs with Java, ensuring secure and efficient backend communication.
       - Optimized UI performance and accessibility, improving page load times and user experience.
 
-  - Role:     Full-stack Engineer • Front-end Lead
+  - Role:     Full-stack Engineer
     Company:  Glitnir Ticketing
     Start:    Sep 2017
     End:      Aug 2021
-    Location: New York, NY - Hybrid
+    Location: New York, NY
     Details:
       - Led frontend development and UI/UX revamps, ensuring ADA compliance and improved accessibility.
       - Migrated and enhanced various ticketing flows and portals using Vue.js and PHP, modernizing legacy applications.
@@ -64,25 +75,54 @@ Experience:
       - Implemented social distancing & orphan seat logic during the COVID-19 pandemic, ensuring safe event seating.
       - Automated financial data collection and reporting with Go, reducing manual reporting time for finance teams.
       - Streamlined stadium seat-building processes, optimizing the ticketing experience for large venues.
-Projects:
-  - Poker trainer (WIP) - custom hand evaluation algorithm, training scenarios, calculation tools and more.
-  - Poker tourney manager - allows users to manage tournaments for their home games for free
 
 Languages:
-  - American English (native)
+  - American English
   - Spanish
 
 Skills:
-  - API design and development
-  - UI and feature development
-  - Figma system designing
-  - Front-end architecture
-  - Agile methodologies
-  - Test Driven Development and Behavior Driven Development
-  - 3rd party integration
-  - Brown-field flows
-  - Writing, documenting and communication
-
+  - Name:  Programming Languages
+    Items:
+      - Go
+      - C#
+      - Python
+      - Bash
+      - JavaScript
+      - TypeScript
+      - HTML5
+      - CSS3
+  - Name:  Frameworks & Libraries
+    Items:
+      - Node.js
+      - React.js
+      - Angular.js
+      - .NET
+      - Entity Framework
+      - Jest
+      - Redux
+      - NgRx
+  - Name:  Methodologies
+    Items:
+      - Agile
+      - Scrum
+      - Test Driven Development (TDD)
+      - Behavior Driven Development (BDD)
+      - RESTful APIs
+      - Actor Model
+      - Concurrency
+  - Name: Tools & Technologies
+    Items:
+      - Azure
+      - Google Cloud Platform
+      - Docker
+      - CI/CD
+      - gRPC
+      - ProtoBuf
+      - Splunk
+      - Git
+      - Linux
+      - Web Sockets
+      - Web Workers
 Keywords:
   - Go
   - TypeScript

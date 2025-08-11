@@ -1,28 +1,31 @@
 {{define "experience-section"}}
-    <section class="experience" aria-labelledby="experienceHeader">
-        <h3 id="experienceHeader">Experience</h3>
-        {{range .Experience}}
-            <div class="job content">
-                <div class="heading">
-                    <div id="role">
-                        <p><strong>{{.Role}}</strong></p>
-                    </div>
-                    <div id="start-end">{{.Start}}
-                        {{if .End}}
-                            - {{.End}}
-                        {{else}}
-                            - <span>Present</span>
-                        {{end}}
+<section class="resume-section experience" aria-labelledby="experience-title">
+    <h2 id="experience-title" class="section-title">Experience</h2>
+    {{range .Experience}}
+        <article class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-meta">
+                        <h3 class="job-title"><strong>{{.Role}}</strong>,</h3> <span class="company">{{.Company}}</span> <span class="sep">—</span> <span class="location">{{.Location}}</span>
                     </div>
                 </div>
-
-                <p id="location">{{.Company}} <span>({{.Location}})</span></p>
-                <ul id="details">
-                    {{range .Details}}
-                        <li>{{.}}</li>
-                    {{end}}
-                </ul>
+                <div class="job-dates">{{.Start}}
+                    {{if .End}} <span class="sep">—</span> {{.End}}{{else}}<span class="sep">—</span> <span>Present</span>{{end}}
+                </div>
             </div>
-        {{end}}
-    </section>
+            {{ if .Clients }}
+            <p style="">Clients:
+                {{- $currentClients := .Clients -}}
+                {{- range $index, $client := .Clients -}}
+                    {{- $client -}}{{- if ne $index (lenMinusOne $currentClients) -}}, {{end -}}
+                {{- end -}}
+            {{ end }}
+            <ul class="job-details" role="list">
+                {{range .Details}}
+                    <li>{{.}}</li>
+                {{end}}
+            </ul>
+        </article>
+    {{end}}
+</section>
 {{end}}

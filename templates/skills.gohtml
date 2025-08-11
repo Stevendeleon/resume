@@ -1,14 +1,13 @@
 {{define "skills-section"}}
-    <!-- skills -->
-    <section class="skills" aria-labelledby="skillsHeader">
-        <h3 id="skillsHeader">Skills</h3>
-
-        <div id="skills" class="content">
-            <ul>
-                {{range .Skills}}
-                    <li>{{.}}</li>
-                {{end}}
-            </ul>
-        </div>
-    </section>
+<section class="resume-section skills" aria-labelledby="skillsHeader">
+    <h2 id="skills-title" class="section-title">Skills</h2>
+    <ul class="skill-list" role="list">
+    {{- range .Skills -}}{{$currentSkill := .}}
+        <li class="skill-item">
+            <span class="label">{{.Name}}:</span>
+            <span class="value">{{- range $index, $item := .Items -}}{{$item}}{{- if ne $index (lenMinusOne $currentSkill.Items) -}}, {{end -}}{{- end -}}</span>
+        </li>
+    {{end}}
+    </ul>
+</section>
 {{end}}

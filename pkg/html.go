@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"html/template"
 	"os"
+	"strings"
 )
 
 type MetaData struct {
@@ -20,6 +21,8 @@ type WebData struct {
 func GenerateHTML(resume *Resume) error {
 	funcMap := template.FuncMap{
 		"lenMinusOne": lenMinusOne,
+		"phoneToText": formatPhone,
+		"formatUrl":   formatUrl,
 	}
 
 	tmplHTML := template.New("").Funcs(funcMap)
@@ -55,6 +58,18 @@ func lenMinusOne(s []string) int {
 	return len(s) - 1
 }
 
-func helloWorld(name string) {
-	fmt.Printf("Hello %s", name)
+func formatPhone(p string) string {
+	parts := strings.Split(p, "-")
+	if len(parts) != 3 {
+		return p
+	}
+
+	return fmt.Sprintf("+1(%s) %s-%s", parts[0], parts[1], parts[2])
+}
+
+func formatUrl(u string) string {
+	u = strings.TrimPrefix(u, "https://")
+	u = strings.TrimPrefix(u, "http://")
+	u = strings.TrimPrefix(u, "www.")
+	return u
 }
