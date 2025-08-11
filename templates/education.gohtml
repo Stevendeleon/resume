@@ -1,6 +1,11 @@
 {{define "education-section"}}
-<section class="education" aria-labelledby="educationHeader">
-    <h3 id="educationHeader">Education</h3>
-    <div id="education" class="content">{{.}}</div>
+<section class="resume-section education" aria-labelledby="education-title">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-item">
+    {{- range .}}
+        <div class="edu-left"><span>{{- .School -}}</span> — {{.Degree }} in {{.Major -}}</div>
+        <div class="edu-right">{{ if .Year }}{{- .Year -}}{{end}}</div>
+    {{end -}}
+    </div>
 </section>
 {{end}}

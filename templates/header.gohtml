@@ -1,22 +1,6 @@
 {{define "heading-section" }}
-    <header role="banner" aria-labelledby="about header">
-        <div id="about">
-            <h1 id="my-name">{{.Name}}</h1>
-
-            <div>
-                <h2 id="my-position">{{.Role}}</h2>
-                <div id="contact">
-                    <span>{{.Location}}</span>
-                    <span><a href="mailto:{{.Email}}">{{.Email}}</a></span>
-                    <span><a href="tel:{{.Phone}}">{{.Phone}}</a></span>
-                </div>
-            </div>
-
-        </div>
-
-        <div id="mission">
-            <p>{{.Mission}}</p>
-        </div>
-    </header>
-    <hr />
+<header class="resume-header" role="banner" aria-labelledby="about header">
+    <h1 class="name">{{.Name}}</h1>
+    <p>{{.Location}} | {{phoneToText .Phone}} | <a href="mailto:{{.Email}}">{{.Email}}</a> | <a href="{{.LinkedInUrl}}" target="_blank">{{formatUrl .LinkedInUrl}}</a></p>
+</header>
 {{end}}
